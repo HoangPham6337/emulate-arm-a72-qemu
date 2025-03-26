@@ -146,3 +146,16 @@ If you can make it work, you can ssh into the emulator by:
 ```bash
 ssh username@localhose -p 2222
 ```
+
+## Credits
+This project is based on and inspired by:
+- [Xeome.dev: Emulating Cortex-A72](https://notes.xeome.dev/notes/Emulating-Cortex-A72): An excellent guide that laid the foundation for this QEMU-based ARM emulation workflow.
+- [sysguides.com: How Do I Properly Install KVM on Linux](https://sysguides.com/install-kvm-on-linux): An excellent guide that shows how to install and setup QEMU/KVM on multiple Linux distros.
+
+Additional tools and references:
+- [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
+- [Raspberry Pi boards (raspi0, raspi1ap, raspi2b, raspi3ap, raspi3b, raspi4b)](https://www.qemu.org/docs/master/system/arm/raspi.html)
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE)
